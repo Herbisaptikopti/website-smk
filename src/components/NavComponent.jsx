@@ -40,10 +40,10 @@ const NavComponent = () => {
                             )
                         })}
                     </Nav>
+                        <div className="text-center">
+                            <button className='btn btn-outline-warning rounded-1'>Login</button>
+                        </div>
                     </Navbar.Collapse>
-                    <div>
-                        <button className='btn btn-outline-warning rounded-1'>Login</button>
-                    </div>
                 </Container>
             </Navbar>
         </div>

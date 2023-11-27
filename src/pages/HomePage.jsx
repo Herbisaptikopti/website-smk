@@ -43,7 +43,7 @@ const HomePage = () => {
                 </Container>
             </div>
             {/* ini section kitab */}
-            <div className="Kitab w-100 min-vh-100 d-flex align-items-center">
+            <div className="Kitab w-100 lg-min-vh-100 min-vh-50 d-flex align-items-center">
                 <Container>
                     <Row className='kitab-box d-flex align-items-center text-center'>
                         <Col>
@@ -63,7 +63,7 @@ const HomePage = () => {
                     </Row>
 
                     <Row className='mt-5 mb-5 justify-content-center'>
-                        <Col lg="4">
+                        <Col lg="4" className='mb-3'>
                         <Card className='kartu shadow'>
                             <img src={yoga} />
                             <Card.Body>
@@ -92,7 +92,7 @@ const HomePage = () => {
                     </Row>
                 </Container>
             </div>
-            <div className="maps w-100 min-vh-100">
+            <div className="maps w-100 lg-min-vh-100 min-vh-50">
                 <Container>
                     <Row className='maps-box'>
                         <h1 className='fw-bold mb-5 text-center'>GOOGLE MAP</h1>

@@ -49,6 +49,7 @@
     background-color: #DFA50F;
     color: #ffffff;
 }
+
 /* style navbar */
 
 /* style header */
@@ -80,6 +81,46 @@ header {
 .Homepage .header-box .btn {
     color: #ffffff;
 }
+/* layar hp */
+@media screen and (max-width:375px) {
+.navbar img {
+    width: 40px;
+}
+.navbar .smk {
+    font-size: 0.9rem;
+}
+.Homepage .header-box h1 {
+    padding-top: 100px;
+    font-size: 1.5rem;
+}
+.Homepage .header-box h5 {
+    font-size: 0.9rem;
+}
+.Homepage .header-box p {
+    font-size: 12px;
+}
+.Homepage .sambutan-box h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+.Homepage .header-box img {
+    width: 300px;
+}
+.Homepage .Kitab .kitab-box h1 {
+    font-size: 1.2rem;
+}
+.Homepage .Kitab .kitab-box img {
+    width: 150px;
+}
+.Homepage .santribaru h1 {
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+.Homepage .maps-box h1 {
+    margin-top: 10px;
+}
+}
+/* layar hp */
 /* style homepage */
 
 /* style homepage bagian sambutan */
@@ -168,7 +209,10 @@ header {
 
 /* style homepage bagian maps */
 .Homepage .maps-box h1 {
-    margin-top: 150px;
+    margin-top: 100px;
+}
+.Homepage .maps-box img {
+    margin-bottom: 100px;
 }
 /* style homepage bagian maps */
 
