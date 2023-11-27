@@ -63,7 +63,7 @@ const HomePage = () => {
                     </Row>
 
                     <Row className='mt-5 mb-5 justify-content-center'>
-                        <Col lg="4" className='mb-3'>
+                        <Col className='mb-3 col-md-4 lg-mx-0 mx-5'>
                         <Card className='kartu shadow'>
                             <img src={yoga} />
                             <Card.Body>
@@ -71,7 +71,7 @@ const HomePage = () => {
                             </Card.Body>
                         </Card>
                         </Col>
-                        <Col lg="4">
+                        <Col className='col-md-4 lg-mx-0 mx-5'>
                         <Card className='kartu shadow'>
                             <img src={yoga} />
                             <Card.Body>

@@ -82,7 +82,7 @@ header {
     color: #ffffff;
 }
 /* layar hp */
-@media screen and (max-width:375px) {
+@media screen and (max-width:428px) {
 .navbar img {
     width: 40px;
 }
@@ -118,6 +118,11 @@ header {
 }
 .Homepage .maps-box h1 {
     margin-top: 10px;
+}
+.Homepage .card {
+    width: 50px;
+    height: 73px;
+    background: #ffffff;
 }
 }
 /* layar hp */
@@ -166,10 +171,6 @@ header {
     width: 350px;
     height: 373px;
     background: #ffffff;
-}
-
-.Homepage .card .kartu {
-    cursor: pointer;
 }
 
 .Homepage .card img{
