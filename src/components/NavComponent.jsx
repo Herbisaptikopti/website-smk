@@ -26,9 +26,9 @@ const NavComponent = () => {
             <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
                 <Container>
                     <img src={logosmp}></img>
-                    <Navbar.Brand href="#home" className='smk fw-bold mx-3'>SMK / RTB <br></br>BELITANG</Navbar.Brand>
+                    <Navbar.Brand href="#home" className='smk fw-bold mx-3'>SMK / RTB</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav" className="hp navbar-light">
                     <Nav className="mx-auto text-center">
                         {navLink.map((link) => {
                             return (
