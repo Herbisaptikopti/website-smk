@@ -36,7 +36,7 @@ const HomePage = () => {
                             <img src={Jokowi} alt="kepala-sekolah-img" />
                         </Col>
                         <Col lg="8">
-                            <h2 className='fw-bold mb-5 mt-3'>Prakata Kepala Sekolah</h2>
+                            <h2 className='fw-bold mb-5 mt-3'>PRAKATA KEPALA SEKOLAH</h2>
                             <p>Era globalisasi dengan segala implikasinya menjadi salah satu pemicu cepatnya perubahan yang terjadi pada berbagai aspek kehidupan masyarakat, dan bila tidak ada upaya sungguh-sungguh untuk mengantisipasinya maka hal tersebut akan menjadi maslah yang sangat serius. Dalam hal ini dunia pendidikan mempunyai tanggung jawab yang besar, terutama dalam menyiapkan sumber daya manusia yang tangguh sehingga mampu hidup selaras didalam perubahan itu sendiri. Pendidikan merupakan investasi jangka panjang yang hasilnya tidak dapat dilihat dan dirasakan secara instan, sehingga sekolah sebagai ujung tombak dilapangan harus memiliki arah pengembangan jangka panjang dengan tahapan pencapaiannya yang jelas dan tetap mengakomodir tuntutan permasalahan faktual kekinian yang ada di masyarakat.</p>
                         </Col>
                     </Row>
@@ -58,11 +58,11 @@ const HomePage = () => {
                 <Container>
                     <Row className='sekolah-box d-flex align-items-center'>
                         <Col>
-                            <h1 className='mt-5 fw-bold text-center'>Unit Pendidikan</h1>
+                            <h1 className='lg-mb-5 mb-3 fw-bold text-center'>UNIT PENDIDIKAN</h1>
                         </Col>
                     </Row>
 
-                    <Row className='mt-5 mb-5 justify-content-center'>
+                    <Row className='mt-3 mb-5 justify-content-center g-2'>
                         <Col className='mb-3 col-md-4 lg-mx-0 mx-5'>
                         <Card className='kartu shadow'>
                             <img src={yoga} />
