@@ -124,10 +124,23 @@ header {
 .Homepage .maps-box h1 {
     margin-top: 10px;
 }
-.Homepage .card {
+.Unitsekolah .card .kartu {
     width: 50px;
     height: 73px;
     background: #ffffff;
+}
+.Profile-page .vision-box img {
+    width: 70px;
+}
+.Profile-page .vision-box p {
+    text-align: justify;
+}
+.Profile-page .struktur {
+    height: 50vh;
+}
+.Profile-page .struktur .struktur-box img {
+    width: 370px;
+    height: 400px;
 }
 }
 /* layar hp */
@@ -170,6 +183,9 @@ header {
 
 .Unitsekolah .sekolah-box h1 {
     margin-top: 100px;
+}
+.Unitsekolah .kartu h3 {
+    color: #1F8A70;
 }
 
 .Homepage .unitsekolah {
@@ -239,21 +255,25 @@ header {
 
 .Profile-page .visi .vision-box {
     padding: 30px;
+    margin-top: 35px;
     background: #ffffff;
 }
 /* visi */
 /* struktur */
 .Profile-page .struktur {
     background: #1F8A70;
-    margin-bottom: 50px;
-    margin-top: 50px;
 }
 .Profile-page .struktur .struktur-box {
-    padding: 30px;
+    padding-top: 100px;
+    align-items: center;
+}
+.Profile-page .struktur .struktur-box h1 {
+    color: #ffffff;
 }
 .Profile-page .struktur img {
     width: 885px;
     height: 664px;
+    margin-bottom: 100px;
 }
 /* struktur */
 
@@ -262,11 +282,15 @@ header {
     background: #d5d5d5;
 }
 .Profile-page .sejarah h1 {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 50px;
 }
 .Profile-page .sejarah p {
     text-align: justify;
+}
+
+.Profile-page .sejarah .paragrap {
+    margin-bottom: 70px;
 }
 /* sejarah */
 /* style halaman profile */

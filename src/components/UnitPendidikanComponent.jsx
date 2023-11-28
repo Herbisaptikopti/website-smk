@@ -16,7 +16,7 @@ const UnitPendidikanComponent = () => {
                         <Card className='kartu shadow'>
                             <img src={yoga} />
                             <Card.Body>
-                                <h5 className='fw-bold text-center'>SMP <br></br>ROUDLOTUT THULLAB<br></br>  BELITANG</h5>
+                                <h3 className='fw-bold mt-2 text-center'>SMP <br></br>ROUDLOTUT THULLAB<br></br>  BELITANG</h3>
                             </Card.Body>
                         </Card>
                         </Col>
@@ -24,7 +24,7 @@ const UnitPendidikanComponent = () => {
                         <Card className='kartu shadow'>
                             <img src={yoga} />
                             <Card.Body>
-                                <h5 className='fw-bold text-center'>SMK <br></br>ROUDLOTUT THULLAB<br></br>  BELITANG</h5>
+                                <h3 className='fw-bold mt-2 text-center'>SMK <br></br>ROUDLOTUT THULLAB<br></br>  BELITANG</h3>
                             </Card.Body>
                         </Card>
                         </Col>
