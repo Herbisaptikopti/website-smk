@@ -1,311 +1,315 @@
 * {
-    font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 /* style navbar */
 .navbar img {
-    width: 70px;
+  width: 70px;
 }
 .navbar .smk {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.navbar.color-active{
-    background-color: #1F8A70;
-    padding: 20px 0 20px 0;
-    border-bottom: 2px solid #ffffff31;
+.navbar.color-active {
+  background-color: #1f8a70;
+  padding: 20px 0 20px 0;
+  border-bottom: 2px solid #ffffff31;
 }
 
 .navbar .btn {
-    color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .navbar {
-    position: fixed;
-    padding: 15px 0 15px 0;
-    width: 100%;
-    transition: all 0.2s ease;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    z-index: 9999;
+  position: fixed;
+  padding: 15px 0 15px 0;
+  width: 100%;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  z-index: 9999;
 }
 
 .navbar .nav-link a {
-    padding: 5px 10px 5px 10px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .navbar .nav-link a:hover {
-    color: #DFA50F;
+  color: #dfa50f;
 }
 
 .navbar .nav-link .active {
-    background-color: #DFA50F;
-    color: #ffffff;
+  background-color: #dfa50f;
+  color: #ffffff;
 }
 
 /* style navbar */
 
 /* style header */
 header {
-    background: #1F8A70;
+  background: #1f8a70;
 }
 /* style header */
 
 /* style homepage */
 .Homepage .header-box h1 {
-    font-size: 2.2rem;
-    font-weight: 400;
-    color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #ffffff;
 }
 .Homepage .header-box h5 {
-    line-height: 1.5;
-    font-weight: 400;
-    color: #ffffff;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .Homepage .header-box .btn {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .Homepage .header-box img {
-    width: 100%;
+  width: 100%;
 }
 
 .Homepage .header-box .btn {
-    color: #ffffff;
+  color: #ffffff;
 }
 /* layar hp */
-@media screen and (max-width:428px) {
-.navbar img {
-    width: 40px;
-}
-.navbar .smk {
+@media screen and (max-width: 428px) {
+  .navbar img {
+    width: 150px;
+  }
+  .navbar .smk {
     font-size: 1rem;
-}
-.navbar .hp {
-    background: #1F8A70;
+  }
+  .navbar .hp {
+    background: #1f8a70;
     margin-top: 30px;
     padding: 20px;
-}
-.Homepage .header-box h1 {
+  }
+  .Homepage .header-box h1 {
     padding-top: 100px;
     font-size: 1.5rem;
-}
-.Homepage .header-box h5 {
+  }
+  .Homepage .header-box h5 {
     font-size: 0.9rem;
-}
-.Homepage .header-box .btn {
+  }
+  .Homepage .header-box .btn {
     margin-top: 35px;
-}
-.Homepage .sambutan-box h2 {
+  }
+  .Homepage .sambutan-box h2 {
     text-align: center;
     padding-top: 10px;
-}
-.Homepage .header-box img {
+  }
+  .Homepage .header-box img {
     width: 300px;
-}
-.Homepage .Kitab .kitab-box h1 {
+    margin-top: 100px;
+  }
+  .Homepage .header-box hr {
+    color: #ffffff;
+  }
+  .Homepage .Kitab .kitab-box h1 {
     font-size: 1.2rem;
-}
-.Homepage .Kitab .kitab-box img {
+  }
+  .Homepage .Kitab .kitab-box img {
     width: 150px;
-}
-.Homepage .santribaru h1 {
+  }
+  .Homepage .santribaru h1 {
     font-size: 1.2rem;
     padding-top: 30px;
-}
-.Homepage .maps-box h1 {
+  }
+  .Homepage .maps-box h1 {
     margin-top: 10px;
-}
-.Unitsekolah .card .kartu {
+  }
+  .Unitsekolah .card .kartu {
     width: 50px;
     height: 73px;
     background: #ffffff;
-}
-.Profile-page .vision-box img {
+  }
+  .Profile-page .vision-box img {
     width: 70px;
-}
-.Profile-page .vision-box p {
+  }
+  .Profile-page .vision-box p {
     text-align: justify;
-}
-.Profile-page .struktur {
+  }
+  .Profile-page .struktur {
     height: 50vh;
-}
-.Profile-page .struktur .struktur-box img {
+  }
+  .Profile-page .struktur .struktur-box img {
     width: 370px;
     height: 400px;
-}
+  }
 }
 /* layar hp */
 /* style homepage */
 
 /* style homepage bagian sambutan */
 .Homepage .sambutan-box {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .Homepage .sambutan-box img {
-    width: 100%;
+  width: 100%;
 }
 
 .Homepage .sambutan-box p {
-    line-height: 2;
-    text-align: justify;
+  line-height: 2;
+  text-align: justify;
 }
 /* style homepage bagian sambutan */
 
 /* style homepage bagian kitab */
 .Homepage .Kitab {
-    background: #1F8A70;
-    margin-top: 50px;
+  background: #1f8a70;
+  margin-top: 50px;
 }
 
 .Homepage .kitab-box h1 {
-    margin-top: 100px;
-    color: #ffffff;
-    font-size: 35px;
+  margin-top: 100px;
+  color: #ffffff;
+  font-size: 35px;
 }
 
 .Homepage .kitab-box img {
-    width: 60;
-    margin-bottom: 100px;
+  width: 60;
+  margin-bottom: 100px;
 }
 /* style homepage bagian kitab */
 
 /* style omepage bagian unit sekolah */
 
 .Unitsekolah .sekolah-box h1 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 .Unitsekolah .kartu h3 {
-    color: #1F8A70;
+  color: #1f8a70;
 }
 
 .Homepage .unitsekolah {
-    background: #d5d5d5;
+  background: #d5d5d5;
 }
 
 .card {
-    align-items: center;
-    width: 350px;
-    height: 373px;
-    background: #ffffff;
+  align-items: center;
+  width: 350px;
+  height: 373px;
+  background: #ffffff;
 }
 
-.card img{
-    margin-top: 35px;
-    width: 152px;
+.card img {
+  margin-top: 35px;
+  width: 152px;
 }
 
 .card-body {
-    align-items: center;
+  align-items: center;
 }
 
-.card-body h5{
-    margin-top: 50px;
-    align-items: center;
-    font-size: 700;
-    color: #1F8A70;
+.card-body h5 {
+  margin-top: 50px;
+  align-items: center;
+  font-size: 700;
+  color: #1f8a70;
 }
 /* style omepage bagian unit sekolah */
 
 /* style homepage bagian santri baru */
 .Homepage .santribaru {
-    width: 100;
-    height: 300px;
-    background: #1F8A70;
-    align-items: center;
+  width: 100;
+  height: 300px;
+  background: #1f8a70;
+  align-items: center;
 }
 
 .Homepage .santribaru h1 {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .Homepage .santribaru .btn {
-    color: #ffffff;
-    font-size: 20px;
+  color: #ffffff;
+  font-size: 20px;
 }
 /* style homepage bagian santri baru */
 
 /* style homepage bagian maps */
 .Homepage .maps-box h1 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 .Homepage .maps-box img {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 /* style homepage bagian maps */
 
 /* style halaman profile */
 .Profile-page {
-    background: #1F8A70;
+  background: #1f8a70;
 }
 
 /* visi */
 .Profile-page .visi {
-    background: #d5d5d5;
+  background: #d5d5d5;
 }
 
 .Profile-page .visi .vision-box {
-    padding: 30px;
-    margin-top: 35px;
-    background: #ffffff;
+  padding: 30px;
+  margin-top: 35px;
+  background: #ffffff;
 }
 /* visi */
 /* struktur */
 .Profile-page .struktur {
-    background: #1F8A70;
+  background: #1f8a70;
 }
 .Profile-page .struktur .struktur-box {
-    padding-top: 100px;
-    align-items: center;
+  padding-top: 100px;
+  align-items: center;
 }
 .Profile-page .struktur .struktur-box h1 {
-    color: #ffffff;
+  color: #ffffff;
 }
 .Profile-page .struktur img {
-    width: 885px;
-    height: 664px;
-    margin-bottom: 100px;
+  width: 885px;
+  height: 664px;
+  margin-bottom: 100px;
 }
 /* struktur */
 
 /* sejarah */
 .Profile-page .sejarah {
-    background: #d5d5d5;
+  background: #d5d5d5;
 }
 .Profile-page .sejarah h1 {
-    margin-top: 70px;
-    margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 .Profile-page .sejarah p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .Profile-page .sejarah .paragrap {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 /* sejarah */
 /* style halaman profile */
 
 /* style footer */
 .footer {
-    background: #1F8A70;
+  background: #1f8a70;
 }
 
 .footer h3 {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .footer p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* style footer */
